@@ -1,0 +1,34 @@
+# Claude / AI tooling — never commit
+CLAUDE.md
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# dbt
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
