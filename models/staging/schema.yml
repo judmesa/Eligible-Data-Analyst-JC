@@ -16,19 +16,25 @@ models:
                   - open
                   - switched
                   - redeemed
+
   - name: stg_applicants
     columns:
       - name: applicant_id
         tests:
           - unique
           - not_null
+
       - name: mortgage_id
         tests:
           - not_null
+          - relationships:
+              arguments:
+                to: "{{ ref('stg_mortgages') }}"
+                field: mortgage_id
+
       - name: consumer_id
         tests:
           - not_null
-
 
   - name: stg_events
     columns:
@@ -36,7 +42,7 @@ models:
         tests:
           - unique
           - not_null
-    
+
       - name: event_alias
-        tests: 
-          - not_null 
+        tests:
+          - not_null
