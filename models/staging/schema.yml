@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: stg_mortgages
+    columns:
+      - name: mortgage_id
+        tests:
+          - unique
+          - not_null
+
+      - name: mortgage_state
+        tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - open
+                  - switched
+                  - redeemed
+  - name: stg_applicants
+    columns:
+      - name: applicant_id
+        tests:
+          - unique
+          - not_null
+      - name: mortgage_id
+        tests:
+          - not_null
+      - name: consumer_id
+        tests:
+          - not_null
+
+
+  - name: stg_events
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+    
+      - name: event_alias
+        tests: 
+          - not_null 
