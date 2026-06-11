@@ -1,6 +1,6 @@
 -- Final cohort-level summary table.
 -- Grain: one row per (lender, cohort_month).
--- This is the table analysts and dashboards query directly.
+
 with spine as (
     select * from {{ ref('int_engagement_spine') }}
 ),
