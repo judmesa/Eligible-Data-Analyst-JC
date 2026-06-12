@@ -12,7 +12,7 @@ This analysis covers 5,000 mortgages across three lenders -- Elderless, Roast Ha
 
 There is a clear relationship between customer behaviour and switching. However, the signal is not evenly distributed across the engagement funnel. It concentrates in one specific action: when a customer explicitly declares they are considering switching, they follow through at a dramatically higher rate than customers who never reach that point.
 
-Everything that happens before -- clicking the email, logging in, reading content -- shows a positive pattern, but these earlier steps do not independently predict switching once intent is in the picture. They tend to accompany intent, not drive it. A customer who is going to declare intent will usually have clicked and logged in too. But not all customers who click and log in will go on to declare intent.
+Everything that happens before -- clicking the email, logging in, reading content -- shows a positive pattern, but these earlier steps do not reliably separate switchers from non-switchers on their own. They tend to accompany intent, not drive it. A customer who is going to declare intent will usually have clicked and logged in too. But not all customers who click and log in will go on to declare intent.
 
 The practical implication is that intent is not just a milestone in the funnel. It is the signal that matters most.
 
@@ -22,7 +22,7 @@ The practical implication is that intent is not just a milestone in the funnel. 
 
 Looking at the timing of engagement across the first three months reveals something worth paying attention to. Customers who interacted with the platform in month 1 -- the first four weeks after their initial email -- showed higher rates of intent and switching than customers who only engaged in months 2 or 3.
 
-Late engagement tends to be reactive. By the time a customer reaches out in month 3, they are often already mid-decision. Month 1 engagement looks more like genuine early discovery -- customers who are curious and open. That distinction matters for how outreach is designed.
+Late engagement tends to be reactive. By the time a customer reaches out in month 3, they may already be mid-decision. Month 1 engagement looks more like genuine early discovery -- customers who are curious and open. That distinction matters for how outreach is designed.
 
 If month 1 engagement is consistently the better predictor, the quality of the first contact is more important than the volume of follow-up.
 
@@ -67,9 +67,9 @@ Before optimising the engagement programme, it is worth asking whether the reach
 
 ---
 
-## What would make us more confident in these findings
+## What would sharpen these recommendations
 
-We are confident in the direction of these findings -- the intent signal is clear and consistent across cohorts. But there are a few things missing from the data that would sharpen the recommendations:
+We are confident in the direction of these findings -- the intent signal is clear and consistent across cohorts. But there are a few things missing from the data that would make the recommendations more precise:
 
 **The rate each customer is on, and what competing rates look like.** A customer whose current rate is already close to the best available market rate has little financial reason to switch, regardless of how engaged they are. Without this, we cannot fully separate platform engagement effects from rate environment effects. This is probably the single most important data gap.
 
@@ -78,3 +78,5 @@ We are confident in the direction of these findings -- the intent signal is clea
 **Other contact channels.** The data only includes email. If customers are also receiving SMS, push notifications, or adviser contact, those interactions are invisible here. A customer who switched after a phone call looks like an organic mover in this dataset.
 
 **Why customers did not switch.** The intent event tells us a customer was considering it. The data does not tell us why they stopped. Customer feedback, even informal, would help distinguish customers who were close and needed a nudge from those who decided against it for structural reasons.
+
+These are the gaps that would turn a directional finding into a confident recommendation.
